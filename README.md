@@ -29,8 +29,6 @@ https://www.youtube.com/watch?v=yifpzYfplrM
 
 - the SGF is optimized in size, but contains a **very large number of nodes**
 - most SGF editors struggle with node count more than file size
-- for example, some tools can open larger files that have fewer nodes, but fail on this one
-
 - I recommend using **Sabaki** to open the SGF  
 - even then, the full file may fail to open
 
