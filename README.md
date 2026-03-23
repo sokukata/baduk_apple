@@ -35,3 +35,9 @@ https://www.youtube.com/watch?v=yifpzYfplrM
 To make it usable:
 - `output_full.sgf` → full animation (may not open)
 - `output_1.sgf` and `output_2.sgf` → split versions that can be opened in Sabaki
+
+To generate frames: 
+```console
+ffmpeg -r 30 -i Bad_Apple.mp4 -r 30 output_%04d.jpg
+```
+
